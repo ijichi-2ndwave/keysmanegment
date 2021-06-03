@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		684BB00926538C5C009A1639 /* RegistSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684BB00826538C5C009A1639 /* RegistSampleData.swift */; };
+		684BB00A26538C5C009A1639 /* RegistSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684BB00826538C5C009A1639 /* RegistSampleData.swift */; };
 		687A548C2651EB0D00FB4547 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A548B2651EB0D00FB4547 /* Tests_iOS.swift */; };
 		687A54972651EB0D00FB4547 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687A54962651EB0D00FB4547 /* Tests_macOS.swift */; };
 		687A54992651EB0D00FB4547 /* keysManegment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 687A546D2651EB0100FB4547 /* keysManegment.xcdatamodeld */; };
@@ -39,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		684BB00826538C5C009A1639 /* RegistSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistSampleData.swift; sourceTree = "<group>"; };
 		687A546E2651EB0100FB4547 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		687A546F2651EB0100FB4547 /* keysManegmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keysManegmentApp.swift; sourceTree = "<group>"; };
 		687A54702651EB0200FB4547 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +112,7 @@
 				687A54712651EB0200FB4547 /* Persistence.swift */,
 				687A54722651EB0D00FB4547 /* Assets.xcassets */,
 				687A546D2651EB0100FB4547 /* keysManegment.xcdatamodeld */,
+				684BB00826538C5C009A1639 /* RegistSampleData.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -319,6 +323,7 @@
 				687A549B2651EB0D00FB4547 /* keysManegmentApp.swift in Sources */,
 				687A549F2651EB0D00FB4547 /* Persistence.swift in Sources */,
 				687A54992651EB0D00FB4547 /* keysManegment.xcdatamodeld in Sources */,
+				684BB00926538C5C009A1639 /* RegistSampleData.swift in Sources */,
 				687A549D2651EB0D00FB4547 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +335,7 @@
 				687A549C2651EB0D00FB4547 /* keysManegmentApp.swift in Sources */,
 				687A54A02651EB0D00FB4547 /* Persistence.swift in Sources */,
 				687A549A2651EB0D00FB4547 /* keysManegment.xcdatamodeld in Sources */,
+				684BB00A26538C5C009A1639 /* RegistSampleData.swift in Sources */,
 				687A549E2651EB0D00FB4547 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +489,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QGFV67N46;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -504,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8QGFV67N46;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

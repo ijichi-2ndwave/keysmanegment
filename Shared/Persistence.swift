@@ -13,9 +13,19 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
+        /// プレビュー用初期値の設定
         for _ in 0..<10 {
             let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+            //newItem.id =  // id
+            newItem.key_name = "鍵"       // 鍵名称
+            newItem.user_name = "未使用"
+            newItem.note = ""
+            newItem.created_at = Date()
+            newItem.updated_at = Date()
+            
+            let newUser = User(context: viewContext)
+            newUser.name = "使用者名です"
+            
         }
         do {
             try viewContext.save()
